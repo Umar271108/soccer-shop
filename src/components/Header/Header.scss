@@ -1,0 +1,21 @@
+@import '../../index.scss';
+
+.header {
+    background: hsla(0,0%,100%,.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    .header-inner{
+        @include flex();
+    }
+
+    .header-nav {
+        @include flex($gap: 50px);
+
+        .header-link {
+            font-weight: 500;
+        }
+    }
+
+    
+}

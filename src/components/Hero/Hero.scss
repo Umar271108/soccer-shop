@@ -1,0 +1,40 @@
+@import '../../index.scss';
+
+.hero {
+    .hero-inner {
+        @include flex($fl-direction: column, $gap:30px, $align:start);
+
+        .hero-title {
+            font-size: 45px;
+            max-width: 530px;
+            background: linear-gradient(134deg, #2343d3 40.75%, #160a5a 90.52%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 70px 0 0 ;
+        }
+
+        .hero-text {
+            max-width: 500px;
+            margin-left: 40px;
+        }
+
+        .hero-btn {
+            background-color: #2343d3;
+            color: #fff;
+            border-radius: 30px;
+            font-size: 15px;
+            border: none;
+            padding: 12px 29px;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            transition: all 0.3s ease-in;
+        }
+
+        .hero-btn:hover {
+
+            background-color: transparent;
+            // border: 1px solid #2343d3;
+            color: #2343d3;
+        }
+    }
+}

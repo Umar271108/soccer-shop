@@ -1,0 +1,30 @@
+{
+    "hero": [
+        {
+            "title": "Build Your DreamTeam Here and Right Now",
+            "text": "An app where you can build Lineup11 that allows users to create their own football team and customize it",
+            "btn": "Get started"
+        }
+    ],
+    "news":[],
+    "shop": [
+        {
+            "name": "Erling Holland",
+            "club":"ManCity",
+            "price": 500,
+            "img": ""
+        },
+        {
+            "name": "Vini JR",
+            "club":"Real Madrid",
+            "price": 450,
+            "img": ""
+        },
+        {
+            "name": "Mbappe",
+            "club":"PSG",
+            "price": 600,
+            "img": ""
+        }
+    ]
+}
